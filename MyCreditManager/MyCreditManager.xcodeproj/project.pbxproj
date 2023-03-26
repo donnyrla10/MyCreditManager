@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F88CAA7729D03B56000D86A2 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88CAA7629D03B56000D86A2 /* InputView.swift */; };
+		F88CAA7929D03B7F000D86A2 /* OutputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88CAA7829D03B7F000D86A2 /* OutputView.swift */; };
+		F88CAA7B29D03BA8000D86A2 /* CreditManagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88CAA7A29D03BA8000D86A2 /* CreditManagerController.swift */; };
 		F89DE8E82929EB4E001CE242 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89DE8E72929EB4E001CE242 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F88CAA7629D03B56000D86A2 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		F88CAA7829D03B7F000D86A2 /* OutputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputView.swift; sourceTree = "<group>"; };
+		F88CAA7A29D03BA8000D86A2 /* CreditManagerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditManagerController.swift; sourceTree = "<group>"; };
 		F89DE8E42929EB4E001CE242 /* MyCreditManager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyCreditManager; sourceTree = BUILT_PRODUCTS_DIR; };
 		F89DE8E72929EB4E001CE242 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +44,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F88CAA7529D03B2C000D86A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F88CAA7629D03B56000D86A2 /* InputView.swift */,
+				F88CAA7829D03B7F000D86A2 /* OutputView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F88CAA7C29D03BB4000D86A2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F88CAA7A29D03BA8000D86A2 /* CreditManagerController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F88CAA7D29D03BC1000D86A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F89DE8DB2929EB4E001CE242 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +87,9 @@
 		F89DE8E62929EB4E001CE242 /* MyCreditManager */ = {
 			isa = PBXGroup;
 			children = (
+				F88CAA7D29D03BC1000D86A2 /* Model */,
+				F88CAA7C29D03BB4000D86A2 /* Controller */,
+				F88CAA7529D03B2C000D86A2 /* View */,
 				F89DE8E72929EB4E001CE242 /* main.swift */,
 			);
 			path = MyCreditManager;
@@ -121,6 +154,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F89DE8E82929EB4E001CE242 /* main.swift in Sources */,
+				F88CAA7729D03B56000D86A2 /* InputView.swift in Sources */,
+				F88CAA7B29D03BA8000D86A2 /* CreditManagerController.swift in Sources */,
+				F88CAA7929D03B7F000D86A2 /* OutputView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
